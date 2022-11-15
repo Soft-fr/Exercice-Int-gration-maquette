@@ -214,7 +214,7 @@ font-size: 20px;
     }
 }
 
-.rectangleHero {
+.Hero {
     width: 100%;
     height: 720px;
     max-height: 100%;
@@ -227,20 +227,20 @@ font-size: 20px;
     justify-content: space-between;
 }
 
-.rectangleBlanc {
+.LeftSide {
     width: 405px;
     height: 100%;
     background-color: #fff;
 }
 
-.topRectangleBlanc {
+.LogoHero {
     background-color: #fff;
     width: 321px;
     height: 394px;
     margin-left: 41px;   
 }
 
-.topRectangleBlanc img{
+.LogoHero img{
     width: 112px;
     height: 83px;
     margin-top: 42px;
@@ -249,7 +249,7 @@ font-size: 20px;
     right: 3px;
 }
 
-.topRectangleBlanc h2{
+.LogoHero h2{
     font-size: 3.25rem;
     font-family: Oswald, sans-serif;
     color: var(--secondary-color);
@@ -259,7 +259,7 @@ font-size: 20px;
     
 }
 
-.topRectangleBlanc h3{
+.LogoHero h3{
     line-height: 1.2;
     font-size: 1.875rem;
     color: var(--primary-color);
@@ -269,7 +269,7 @@ font-size: 20px;
     
 }
 
-.bottomRectangleBlanc {
+.SocialMedia {
     background-color: #fff;
     width: 321px;
     height: 326px;
@@ -279,7 +279,7 @@ font-size: 20px;
     
 }
 
-.bottomRectangleBlanc a{
+.SocialMedia a{
     max-width: 22px;
     max-height: 22px;
     margin-right: 18px;
@@ -287,23 +287,23 @@ font-size: 20px;
     margin-left: 8px;
 }
 
-.iconFB {
+.facebook {
     content: url('/assets/images/iconFB.png');
 }
 
-.iconTW{
+.twitter{
     content: url('/assets/images/iconTW.png');
 }
 
-.iconINS{
+.instagram{
     content: url('/assets/images/iconINS.png');
 }
 
-.iconYT{
+.youtube{
     content: url('/assets/images/iconYT.png');
 }
 
-.rectangleOrange{
+.RectangleOrange0{
     width: 507px;
     height: 100%;
     margin-right: 380px;
@@ -324,7 +324,7 @@ font-size: 20px;
 }
 
 
-.rectangleOrange p{
+.RectangleOrange0 p{
     position: relative;
     font-size: 1.25em;
     color: #fff;
@@ -335,7 +335,7 @@ font-size: 20px;
     word-wrap: break-word;
 }
 
-.barreBlanche{
+.LineWhite{
     position: relative;
     width: 60px;
     height: 3px;
@@ -352,31 +352,31 @@ font-size: 20px;
  }
 
 @media (max-width: 1700px) {
-    .rectangleOrange{
+    .RectangleOrange0{
         margin-right: 200px;
     }
 }
 
 @media (max-width: 1090px) {
-    .rectangleOrange{
+    .RectangleOrange0{
         width: 330px;
     }
 }
 
 @media (max-width: 950px) {
 
-    .rectangleHero{
+    .Hero{
         flex-direction: column;
         align-items: center;
     }
-    .rectangleBlanc {
+    .LeftSide {
         width: 720px;
         height: 375px;
         margin-left: 50px;
         margin-right: 50px;
     }
     
-    .topRectangleBlanc {
+    .LogoHero {
         width: 720px;
         height: 300px; 
         margin: 0; 
@@ -384,7 +384,7 @@ font-size: 20px;
         padding-left: 32px;
     }
 
-    .bottomRectangleBlanc{
+    .SocialMedia{
         width: 720px;
         height: 75px;  
         margin: 0; 
@@ -393,7 +393,7 @@ font-size: 20px;
     }
 
 
-    .rectangleOrange{
+    .RectangleOrange0{
         width: 720px;
         height: 300px;
         margin: 0;
@@ -402,24 +402,24 @@ font-size: 20px;
 
 
 @media (max-width: 750px) {
-    .rectangleHero{
+    .Hero{
         flex-direction: column;
         align-items: center;
         height: 1075px;
     }
 
-    .rectangleOrange{
+    .RectangleOrange0{
         width: 340px;
         height: 340px;
     }
 
-    .rectangleBlanc {
+    .LeftSide {
         width: 340px;
         height: 460px;
         margin: 0;
     }
 
-    .topRectangleBlanc {
+    .LogoHero {
         width: 340px;
         height: 300px;  
         box-sizing: border-box;
@@ -427,11 +427,11 @@ font-size: 20px;
         padding-right: 32px;
     }
 
-    .topRectangleBlanc h3{
+    .LogoHero h3{
         font-size: 1.5em;
     }
 
-    .bottomRectangleBlanc{
+    .SocialMedia{
         width: 340px;
         height: 160px;  
         box-sizing: border-box;
@@ -439,14 +439,14 @@ font-size: 20px;
     }
 
 
-    .rectangleOrange{
+    .RectangleOrange0{
         margin: 0;
         width: 340px;
         height: 340px;
     }
 }
 
-.rectangleSousHero {
+.RectangleSubHero {
     width: 100%;
     height: 760px;
     background-color: transparent;
@@ -457,12 +457,12 @@ font-size: 20px;
     overflow: hidden;
 } 
 
-.zoneMiniZoneSousHero{
+.SubHero{
     background-color: transparent;
     display: flex;
 }
 
-.firstText {
+.Text1 {
     background-color:  transparent;
     position: relative;
     width: 360px;
@@ -473,7 +473,7 @@ font-size: 20px;
     justify-content: space-between;
 }
 
-.pictureFace {
+.ImgHead {
     width: 340px;
     height: 340px;
     border-radius: 50% !important; 
@@ -486,7 +486,7 @@ font-size: 20px;
 
 
 
-.zoneFirstText {
+.CaseText1 {
     background-color: var(--grey-1);
     width: 360px;
     height: 251px;
@@ -496,7 +496,7 @@ font-size: 20px;
     
 }
 
-.zoneFirstText h6{
+.CaseText1 h6{
     letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 900;
@@ -508,7 +508,7 @@ font-size: 20px;
 }
 
 
-.zoneFirstText p {
+.CaseText1 p {
     text-align: left;
     font-weight: 400;
     line-height: 1.6;
@@ -520,10 +520,10 @@ font-size: 20px;
 }
 
 
-.secondText{
+.Text2{
     width: 360px;
     height: 700px;
-    background-image: url('/assets/images/bgSecondText.jpg');
+    background-image: url(../images/bgSecondText.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -533,7 +533,7 @@ font-size: 20px;
     margin-right: 32px;
 
 }
-.zoneSecondText{
+.CaseText2{
     width: 298px;
     height: 269px;
     background-color: var(--primary-color);
@@ -542,7 +542,7 @@ font-size: 20px;
     overflow: hidden;
 }
 
-.zoneSecondText h6{
+.CaseText2 h6{
     letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 900;
@@ -554,7 +554,7 @@ font-size: 20px;
 }
 
 
-.zoneSecondText p {
+.CaseText2 p {
     text-align: left;
     font-weight: 400;
     line-height: 1.6;
@@ -566,13 +566,13 @@ font-size: 20px;
     color: #fff;
 }
 
-.troisiemeText {
+.Text3 {
     width: 400px;
     height: 700px;
     position: relative;
 }
 
-.troisiemeText p {
+.Text3 p {
     text-align: left;
     font-weight: 400;
     line-height: 1.6;
@@ -586,7 +586,7 @@ font-size: 20px;
 
 @media (max-width: 1175px) {
 
-    .rectangleSousHero {
+    .RectangleSubHero {
         width: 100%;
         height: 1780px;
         background-color: transparent;
@@ -597,14 +597,14 @@ font-size: 20px;
         overflow: hidden;
     } 
     
-    .zoneMiniZoneSousHero{
+    .SubHero{
         width: 1145px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
-    .firstText {
+    .Text1 {
         position: relative;
         width: 360px;
         height: 700px;
@@ -615,7 +615,7 @@ font-size: 20px;
         margin: 0;
     }
     
-    .pictureFace {
+    .ImgHead {
         width: 340px;
         height: 340px;
         border-radius: 50% !important; 
@@ -628,7 +628,7 @@ font-size: 20px;
     
     
     
-    .zoneFirstText {
+    .CaseText1 {
         background-color: var(--grey-1);
         width: 360px;
         height: 251px;
@@ -638,7 +638,7 @@ font-size: 20px;
         
     }
     
-    .zoneFirstText h6{
+    .CaseText1 h6{
         letter-spacing: 3px;
         text-transform: uppercase;
         font-weight: 900;
@@ -650,7 +650,7 @@ font-size: 20px;
     }
     
     
-    .zoneFirstText p {
+    .CaseText1 p {
         text-align: left;
         font-weight: 400;
         line-height: 1.6;
@@ -662,10 +662,10 @@ font-size: 20px;
     }
     
     
-    .secondText{
+    .Text2{
         width: 360px;
         height: 700px;
-        background-image: url('/assets/images/bgSecondText.jpg');
+        background-image: url(../images/bgSecondText.jpg);
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -677,7 +677,7 @@ font-size: 20px;
 
     
     }
-    .zoneSecondText{
+    .CaseText2{
         width: 400px;
         height: 269px;
         background-color: var(--primary-color);
@@ -686,7 +686,7 @@ font-size: 20px;
         overflow: hidden;
     }
     
-    .zoneSecondText h6{
+    .CaseText2 h6{
         letter-spacing: 3px;
         text-transform: uppercase;
         font-weight: 900;
@@ -698,7 +698,7 @@ font-size: 20px;
     }
     
     
-    .zoneSecondText p {
+    .CaseText2 p {
         text-align: left;
         font-weight: 400;
         line-height: 1.6;
@@ -710,7 +710,7 @@ font-size: 20px;
         color: #fff;
     }
     
-    .troisiemeText {
+    .Text3 {
         width: 400px;
         height: 230px;
         position: relative;
@@ -719,7 +719,7 @@ font-size: 20px;
         margin-top: 20px;
     }
     
-    .troisiemeText p {
+    .Text3 p {
         text-align: left;
         font-weight: 400;
         line-height: 1.6;
@@ -731,19 +731,19 @@ font-size: 20px;
     
 }
 
-.zoneRencontre{
+.Rencontre{
     box-sizing: border-box;
     padding-top: 124px;
     height: 783px;
 }
 
-.zoneRencontreTitle {
+.TitreRencontre {
     width: 100%;
     height: 125px;
     text-align: center;
 }
 
-.titleRencontre {
+.LegendeRencontre {
     color: var(--primary-color);
     font-size: 4.11rem;
     font-weight: 1000;
@@ -752,7 +752,7 @@ font-size: 20px;
    
 }
 
-.sousTitleRencontre {
+.TextRencontre {
     font-weight: 400;
     line-height: 1.6;
     font-size: 1.25rem;
@@ -762,7 +762,7 @@ font-size: 20px;
 
 }
 
-.sousTitleRencontre a{
+.TextRencontre a{
     color: black; /*text*/
     text-decoration: none;
     border-style: none none solid;
@@ -771,11 +771,11 @@ font-size: 20px;
 }
 
 
-.sousTitleRencontre a:hover{
+.TextRencontre a:hover{
     border-color: transparent; 
 }
 
-.zoneRencontreVisage {
+.CardRencontre {
     width: 100%;
     height: 520px;
     z-index: 1;
@@ -784,7 +784,7 @@ font-size: 20px;
     justify-content: center;
 }
 
-.bandeauOrangeRencontre{
+.RectangleOrange1{
     padding: 0px;
     margin: 0px;
     border: none;
@@ -793,14 +793,14 @@ font-size: 20px;
     background-color: var(--primary-color);
 }
 
-.zoneRectangleFace {
+.Card {
     width: 1137px;
     height: 426px;
     display: flex;
     position: absolute;
 }
 
-.zoneFace1 {
+.Card1 {
     background-color: #f2f2f2;
     width: 359px;
     height: 426px;
@@ -810,7 +810,7 @@ font-size: 20px;
 }
 
 
-.zoneFace2 {
+.Card2 {
     background-color: #f2f2f2;
     width: 359px;
     height: 426px;
@@ -819,7 +819,7 @@ font-size: 20px;
     text-align: center;
     
 }
-.zoneFace3 {
+.Card3 {
     background-color: #f2f2f2;
     width: 359px;
     height: 426px;
@@ -828,7 +828,7 @@ font-size: 20px;
 }
 
 
-.zoneFace1 img, .zoneFace2 img, .zoneFace3 img{
+.Card1 img, .Card2 img, .Card3 img{
     width: 180px;
     height: 180px;
     background-position: 50% 50%;
@@ -837,7 +837,7 @@ font-size: 20px;
     margin-top: 28px;
 }
 
-.zoneFace1 h5, .zoneFace2 h5, .zoneFace3 h5{
+.Card1 h5, .Card2 h5, .Card3 h5{
     font-weight: 700;
     font-size: 1.25rem;
     margin: 20px auto 0;
@@ -845,7 +845,7 @@ font-size: 20px;
     margin-bottom: 2px;
 }
 
-.zoneFace1 h6, .zoneFace2 h6, .zoneFace3 h6{
+.Card1 h6, .Card2 h6, .Card3 h6{
     font-weight: 400;
     text-transform: uppercase;
     font-size: 1rem;
@@ -856,7 +856,7 @@ font-size: 20px;
 }
 
 
-.zoneFace1 p, .zoneFace2 p, .zoneFace3 p{
+.Card1 p, .Card2 p, .Card3 p{
     font-weight: 400;
     line-height: 1.6;
     font-size: 1.1rem;
@@ -866,12 +866,12 @@ font-size: 20px;
 }
 
 @media (max-width: 1270px) {
-    .zoneFace1, .zoneFace2, .zoneFace3{
+    .Card1, .Card2, .Card3{
         width: 300px;
         height: 400px;
     }
 
-    .zoneRectangleFace {
+    .Card {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -880,28 +880,28 @@ font-size: 20px;
 
 @media (max-width: 1070px) {
 
-    .zoneRencontre{
+    .Rencontre{
         box-sizing: border-box;
         padding-top: 30px;
         height: 1455px;
         overflow: hidden;
     }
 
-    .titleRencontre{
+    .LegendeRencontre{
         font-size: 3.5rem;
     }
 
-    .zoneFace1, .zoneFace2, .zoneFace3{
+    .Card1, .Card2, .Card3{
         width: 540px;
         height: 378px;
         margin-right: 0px;
     }
 
-    .zoneFace2, .zoneFace3{
+    .Card2, .Card3{
         margin-top: 30px;
     }
 
-    .zoneRencontreVisage {
+    .CardRencontre {
         width: 100%;
         height: 1300px;
         z-index: 1;
@@ -910,7 +910,7 @@ font-size: 20px;
         justify-content: center;
     }
 
-    .zoneRectangleFace {
+    .Card {
         display: flex;
         width: 540px;
         height: 1300px;
@@ -921,13 +921,13 @@ font-size: 20px;
 }
 
 @media (max-width: 600px) {
-    .zoneFace1, .zoneFace2, .zoneFace3{
+    .Card1, .Card2, .Card3{
         width: 470px;
         height: 350px;
         margin-top: 20px;
     }
 
-    .zoneRencontreVisage {
+    .CardRencontre {
         width: 100%;
         height: 1000px;
         z-index: 1;
@@ -936,18 +936,18 @@ font-size: 20px;
         justify-content: center;
     }
 
-    .zoneRencontre{
+    .Rencontre{
         height: 1250px;
         overflow: hidden;
     }
 
-    .titleRencontre{
+    .LegendeRencontre{
         font-size: 2rem;
     }
     
 }
 
-.zonePaysage{
+.Work{
     width: 100%;
     height: 900px;
     box-sizing: border-box;
@@ -958,7 +958,7 @@ font-size: 20px;
     z-index: 2;
 }
 
-.zonePaysagePicture {
+.ImagePaysage {
     width: 1137px;
     height: 398px;
     display: flex;
@@ -967,7 +967,7 @@ font-size: 20px;
     
 }
 
-.paysage1, .paysage2, .paysage3 {
+.img1, .img2, .img3 {
     width: 368px;
     height: 398px;
     background-repeat: no-repeat;
@@ -977,15 +977,15 @@ font-size: 20px;
     transition: filter 0.2s ease-in-out;
 }
 
-.paysage2, .paysage3 {
+.img2, .img3 {
     background-position: 50% 50%;
 }
 
-.paysage1:hover, .paysage2:hover,  .paysage3:hover {
+.img1:hover, .img2:hover,  .img3:hover {
     filter: brightness(80%);
 }
 
-.zoneTextPaysage {
+.Paysage {
     width: 1137px;
     height: 404px;
     display: flex;
@@ -996,7 +996,7 @@ font-size: 20px;
     
 }
 
-.zoneTitlePaysage {
+.TitrePaysage {
     width: 568.5px;
     height: 330px;
     background-color: transparent;
@@ -1004,7 +1004,7 @@ font-size: 20px;
     z-index: 2;
 }
 
-.zoneTitlePaysage h2{
+.TitrePaysage h2{
     line-height: 1;
     font-weight: 1000;
     font-size: 4rem;
@@ -1013,7 +1013,7 @@ font-size: 20px;
 }
 
 
-.zoneSousTitlePaysage {
+.InfoPaysage {
     width: 568.5px;
     height: 292px;
     background-color: transparent;
@@ -1021,7 +1021,7 @@ font-size: 20px;
     z-index: 2;
 }
 
-.sousTitlePaysage1 {
+.LegendePaysage {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -1031,7 +1031,7 @@ font-size: 20px;
 
 }
 
-.sousTitlePaysage2 {
+.TextPaysage {
     font-weight: 200;
     line-height: 1.6;
     font-size: 1.05rem;
@@ -1042,7 +1042,7 @@ font-size: 20px;
     letter-spacing: 1px; 
 }
 
-.sousTitlePaysage2 a{
+.TextPaysage a{
     color: #111111; 
     text-decoration: none;
     border-style: none none solid;
@@ -1051,11 +1051,11 @@ font-size: 20px;
 }
 
 
-.sousTitlePaysage2 a:hover{
+.TextPaysage a:hover{
     border-color: transparent; 
 }
 
-.buttonEncorePlusWhiteToOrange {
+.ButtonOrange {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 1rem;
@@ -1074,12 +1074,12 @@ font-size: 20px;
     margin-top: 10px;
 }
 
-.buttonEncorePlusWhiteToOrange:hover {
+.ButtonOrange:hover {
     background-color: #d67818;
     color: #fff;
 }
 
-.bandeauGrisPaysage{
+.RectangleGris{
     background-color: #e5e5e5;
     height: 882px;
     width: 675px;
@@ -1090,22 +1090,22 @@ font-size: 20px;
 }
 
 @media (max-width: 1270px) {
-    .paysage1, .paysage2, .paysage3{
+    .img1, .img2, .img3{
         width: 320px;
         height: 320px;
     }
 
-    .zonePaysage{
+    .Work{
         padding-top: 60px;
         height: 775px;
     }
-    .zonePaysagePicture{
+    .ImagePaysage{
         justify-content: center;
         height: 320px;
         width: 935px;
     }
 
-    .zoneTextPaysage{
+    .Paysage{
         width: 935px;
         height: 340px;
         padding-top: 0px;
@@ -1113,11 +1113,11 @@ font-size: 20px;
         flex-direction: column;
     }
 
-    .zoneTitlePaysage h2{
+    .TitrePaysage h2{
         font-size: 3rem;
     }
 
-    .zoneTitlePaysage{
+    .TitrePaysage{
         text-align: center;
         display: flex;
         align-items: center;
@@ -1125,7 +1125,7 @@ font-size: 20px;
         height: 140px;
     }
 
-    .zoneSousTitlePaysage{
+    .InfoPaysage{
         padding: 0;
         margin: 0;
         display: flex;
@@ -1135,34 +1135,34 @@ font-size: 20px;
         height: 200px;
     }
 
-    .sousTitlePaysage1, .sousTitlePaysage2, .buttonEncorePlusWhiteToOrange {
+    .LegendePaysage, .TextPaysage, .ButtonOrange {
         margin-top: 3px;
     }
 
-    .bandeauGrisPaysage{
+    .RectangleGris{
         display: none;
     }
 }
 
 @media (max-width: 1060px) {
 
-    .zonePaysage{
+    .Work{
         height: 2000px;
     }
-    .zonePaysagePicture{
+    .ImagePaysage{
         flex-direction: column;
         align-items: center;
         height: 1600px;
     }
 
 
-    .paysage1, .paysage2, .paysage3{
+    .img1, .img2, .img3{
         width: 537px;
         height: 537px;
         margin: 0;
     }
 
-    .paysage2, .paysage3{
+    .img2, .img3{
         margin-top: 20px;
     }
 
@@ -1170,37 +1170,37 @@ font-size: 20px;
 
 @media (max-width: 600px) {
 
-    .zonePaysage{
+    .Work{
         height: 1900px;
     }
-    .zonePaysagePicture{
+    .ImagePaysage{
         height: 1500px;
     }
-    .paysage1, .paysage2, .paysage3{
+    .img1, .img2, .img3{
         width: 470px;
         height: 470px;
         margin: 0;
     }
 
-    .paysage2, .paysage3{
+    .img2, .img3{
         margin-top: 20px;
     }
 
-    .zoneSousTitlePaysage{
+    .InfoPaysage{
         height: 340px;
     }
-    .zoneTitlePaysage, .zoneSousTitlePaysage{
+    .TitrePaysage, .InfoPaysage{
         box-sizing: border-box;
         padding-left: 80px;
         padding-right: 80px;
     }
 
-    .zoneTitlePaysage h2{
+    .TitrePaysage h2{
         font-size: 2rem;
     }
 }
 
-.bgImgChoseAFaire{
+.ImgChoses{
     width: 100%;
     height: 745px;
     background-image: url("/assets/images/bgChoseAFaire.jpg");
@@ -1209,7 +1209,7 @@ font-size: 20px;
     background-size: cover;
 }
 
-.bgOrangeChoseAFaire{
+.FondChoses{
     width: 100%;
     height: 745px;
     background-color: #d6771871;
@@ -1221,20 +1221,20 @@ font-size: 20px;
     align-items: center;
 }
 
-.titleChoseAFaire{
+.TitreChoses{
     font-size: 5rem;
     font-weight: 1000;
     letter-spacing: 2px;
     color: #fff;
 }
 
-.zoneChoseAFaire {
+.Choses {
     width: 1137px;
     height: 384px;
     display: flex;
 }
 
-.zoneAventures, .zoneAchats, .zoneArt, .zonePlaisir {
+.Aventures, .Achats, .Art, .Plaisir {
    width: 284.25px; 
    height: 384px;
    background-color: transparent;
@@ -1244,7 +1244,7 @@ font-size: 20px;
    margin-right: 10px;
 }
 
-.zoneAventures h4, .zoneAchats h4, .zoneArt h4, .zonePlaisir h4{
+.Aventures h4, .Achats h4, .Art h4, .Plaisir h4{
     font-family: Montserrat, sans-serif;
     font-weight: 200;
     line-height: 1.2;
@@ -1253,7 +1253,7 @@ font-size: 20px;
 }
 
 
-.zoneAventures p, .zoneAchats p, .zoneArt p, .zonePlaisir p{
+.Aventures p, .Achats p, .Art p, .Plaisir p{
     font-family: Montserrat, sans-serif;
     font-style: italic;
     margin: 20px 0 0;
@@ -1288,7 +1288,7 @@ font-size: 20px;
 }
 
 
-.sousTitleChoseAFaire {
+.TextChoses {
     font-weight: 200;
     line-height: 1.6;
     font-size: 1.05rem;
@@ -1297,7 +1297,7 @@ font-size: 20px;
 }
 
 
-.sousTitleChoseAFaire a{
+.TextChoses a{
     color: white; 
     text-decoration: none;
     border-style: none none solid;
@@ -1306,41 +1306,41 @@ font-size: 20px;
 }
 
 
-.sousTitleChoseAFaire a:hover{
+.TextChoses a:hover{
     color: rgba(255, 255, 255, 0.7); 
 }
 
 @media (max-width: 1150px) {
 
-    .bgImgChoseAFaire{
+    .ImgChoses{
         height: 1300px;
         background-repeat: no-repeat;
     }
 
-    .bgOrangeChoseAFaire{
+    .FondChoses{
         height: 1300px;
     }
-    .zoneChoseAFaire{
+    .Choses{
         width: 568.5px;
         height: 1000px;
         flex-direction: column;
         align-items: center;
     }
 
-    .zoneAventures, .zoneAchats, .zoneArt, .zonePlaisir{
+    .Aventures, .Achats, .Art, .Plaisir{
         margin: 0;
         height: 250px;
     }
 
-    .zoneAventures{
+    .Aventures{
         margin-top: 50px;
     }
 
-    .zoneAventures a, .zoneAchats a, .zoneArt a, .zonePlaisir a{
+    .Aventures a, .Achats a, .Art a, .Plaisir a{
         margin: 0;
     }
 
-    .zoneAventures p, .zoneAchats p, .zoneArt p, .zonePlaisir p{
+    .Aventures p, .Achats p, .Art p, .Plaisir p{
         margin: 0;
         margin-bottom: 20px;
         
@@ -1349,17 +1349,17 @@ font-size: 20px;
 
 
 @media (max-width: 600px) {
-    .bgImgChoseAFaire{
+    .ImgChoses{
         height: 1400px;
         background-repeat: no-repeat;
     }
 
-    .bgOrangeChoseAFaire{
+    .FondChoses{
         height: 1400px;
     }
 }
 
-.bgPlanifier{
+.FondPlanifier{
     width: 100%;
     height: 828px;
     box-sizing: border-box;
@@ -1370,7 +1370,7 @@ font-size: 20px;
     background-color: #f2f2f2;
 }
 
-.zonePlanifier {
+.Planifier {
     background-color:transparent;
     width: 1137px;
     height: 710px;
@@ -1378,7 +1378,7 @@ font-size: 20px;
     z-index: 2;
 }
 
-.zonePlanifierImg{
+.ImgPlanifier{
     background-image: url("/assets/images/planifierImg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -1389,7 +1389,7 @@ font-size: 20px;
     z-index: 2;
 }
 
-.zoneTextPlanifier{
+.TextPlanifier{
     background-color: transparent;
     width: 538.5px;
     height: 710px;
@@ -1399,7 +1399,7 @@ font-size: 20px;
     z-index: 2;
 }
 
-.carreZoneTextPlanifier{
+.Carre{
     width: 510px;
     height: 427px;
     background-color: #fff;
@@ -1411,7 +1411,7 @@ font-size: 20px;
     z-index: 2;
 }
 
-.carreZoneTextPlanifier h2{
+.Carre h2{
     font-size: 2.3rem;
     font-weight: 700;
     margin: 30px 0 0;
@@ -1421,7 +1421,7 @@ font-size: 20px;
     margin-right: 50px;
 }
 
-.carreZoneTextPlanifier p{
+.Carre p{
     line-height: 1.8;
     margin: 28px 0 0;
     font-weight: 400;
@@ -1434,7 +1434,7 @@ font-size: 20px;
     margin-right: 27px;
 }
 
-.bandeauOrangePlanifier{
+.RectangleOrange2{
     background-color: var(--primary-color);
     height: 228px;
     width: 1300px;
@@ -1448,10 +1448,10 @@ font-size: 20px;
 
 @media (max-width: 1285px) {
 
-    .bgPlanifier{
+    .FondPlanifier{
         height: 1250px;
     }
-    .zonePlanifier{
+    .Planifier{
         flex-direction: column;
         align-items: center;
         height: 1250px;
@@ -1460,26 +1460,26 @@ font-size: 20px;
         padding-top: 40px;
     }
 
-    .zonePlanifierImg{
+    .ImgPlanifier{
         margin: 0;
         height: 700px;
     }
 
-    .zoneTextPlanifier{
+    .TextPlanifier{
         height: 500px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .bandeauOrangePlanifier{
+    .RectangleOrange2{
         display: none;
     }
 
 }
 
 @media (max-width: 600px) {
-    .carreZoneTextPlanifier{
+    .Carre{
         box-sizing: border-box;
         padding-left: 45px;
         padding-right: 45px;
@@ -1487,7 +1487,7 @@ font-size: 20px;
     }
 }
 
-.bgCaroussel {
+.Carousel {
     width: 100%;
     height: 625px;
     text-align: center;
@@ -1499,7 +1499,7 @@ font-size: 20px;
     align-items: center;
 }
 
-.bgCaroussel h2{
+.Carousel h2{
     font-family: Montserrat, sans-serif;
     font-weight: 700;
     line-height: 1.2;
@@ -1508,7 +1508,7 @@ font-size: 20px;
     margin-bottom: 0;
 }
 
-.bgCaroussel h5{
+.Carousel h5{
     font-family: Montserrat, sans-serif;
     font-weight: 700;
     font-size: 0.875rem;
@@ -1551,7 +1551,7 @@ font-size: 20px;
     } 
 }
 
-.secondFooter{
+.Information{
     width: 100%;
     height: 523px;
     background-color: #d67818;
@@ -1560,13 +1560,13 @@ font-size: 20px;
     
 }
 
-.zoneSecondFooter {
+.Contact {
     width: 1101px;
     height: 523px;
     display: flex;
 }
 
-.zoneContact{
+.ContactInfo{
     width: 367px;
     height: 523px;
     box-sizing: border-box;
@@ -1574,7 +1574,7 @@ font-size: 20px;
     padding-left: 25px;
 }
 
-.zoneContact h3{
+.ContactInfo h3{
     font-weight: 700;
     font-size: 2.3rem;
     word-wrap: break-word;
@@ -1583,7 +1583,7 @@ font-size: 20px;
     margin-bottom: 22px;
 }
 
-.zoneContact h6{
+.ContactInfo h6{
     font-weight: 700;
     line-height: 1.9;
     font-style: italic;
@@ -1594,41 +1594,41 @@ font-size: 20px;
     margin-bottom: 0;
 }
 
-.zoneSocialIcon{
+.Media{
     background-color: transparent;
     width: 280px;
     height: 50px;
     margin-top: 29px; 
 }
 
-.zoneSocialIcon a{
+.Media a{
     width: 32px;
     height: 32px;
     margin-right: 8px;
 }
 
-.fbIconFooter{
+.Facebook{
     content: url('/assets/images/footerFB.png');
 }
 
-.twIconFooter{
+.Twitter{
     content: url('/assets/images/footerTW.png');
 }
 
-.insIconFooter{
+.Instagram{
     content: url('/assets/images/footerINS.png');
 }
 
-.wkIconFooter{
+.Wiki{
     content: url('/assets/images/footerVK.png');
 }
 
-.ytIconFooter{
+.Youtube{
     content: url('/assets/images/footerYT.png');
 }
 
  
-.zoneTelephone{
+.ContactNumber{
     width: 367px;
     height: 523px;
     box-sizing: border-box;
@@ -1636,7 +1636,7 @@ font-size: 20px;
     padding-left: 25px;
 }
 
-.zoneTelephone h6{
+.ContactNumber h6{
     font-weight: 700;
     font-size: 1.25rem;
     margin: 0;
@@ -1644,31 +1644,31 @@ font-size: 20px;
     color: #fff;
 }
 
-.zoneTelephone p{
+.ContactNumber p{
     font-weight: 400;
     line-height: 1.6;
     font-size: 1.1rem;
     color: #fff;
 }
 
-.pTelephone1 {
+.NumberOne {
     margin-right: 220px;
     margin-top: 21px;
     margin-bottom: 21px;
 }
 
-.pTelephone2 {
+.NumberTwo {
     margin-right: 157px;
 }
 
-.zoneFormulaire{
+.Form{
     width: 367px;
     height: 523px;
     box-sizing: border-box;
     padding-top: 90px;
 }
 
-.nameFormulaire, .mailFormulaire, .messFormulaire {
+.name, .mail, .mess {
     width: 375px;
     height: 46px;
     transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
@@ -1682,12 +1682,12 @@ font-size: 20px;
     box-sizing: border-box;
 }
 
-.messFormulaire{
+.mess{
     height: 128px;
     resize : none;
 }
 
-.buttonFormulaire{
+.button{
     width: 375px;
     height: 46px;
     border-style: none;
@@ -1701,17 +1701,17 @@ font-size: 20px;
     cursor: pointer;
 }
 
-.buttonFormulaire:hover{
+.button:hover{
     background-color: var(--grey-footer);
 }
 
 
 @media (max-width: 1140px) {
 
-    .secondFooter{
+    .Information{
         height: 800px;
     }
-    .zoneSecondFooter {
+    .Contact {
         width: 734px;
         height: 800px;
         overflow: hidden;
@@ -1719,11 +1719,11 @@ font-size: 20px;
         justify-content: center;
     }
 
-    .zoneTelephone, .zoneContact{
+    .ContactNumber, .ContactInfo{
         height: 450px;
     }
 
-    .zoneFormulaire{
+    .Form {
         width: 384px;
         height: 320px;
         display: flex;
@@ -1739,32 +1739,32 @@ font-size: 20px;
 
 @media (max-width: 750px) {
 
-    .secondFooter{
+    .Information{
         height: 1250px;
     }
-    .zoneSecondFooter {
+    .Contact {
         width: 384px;
         height: 1250px;
     }
 }
 
-.mainFooter{
+.Footer{
     background-color: var(--grey-footer);
     color: #fff;
     text-align: center;
     padding: 30px 0;
 }
 
-.mainFooter p {
+.Footer p {
     max-width: 417px;
     margin: 0 auto;
 }
 
-.mainFooter p:last-child{
+.Footer p:last-child{
     margin-top: 70px;
 }
 
-.mainFooter a{
+.Footer a{
     color:white;
 }
 
